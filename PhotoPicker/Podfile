@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'PhotoPicker' do
+	pod "ImagePickerSheetController", "~> 0.9.1"
+end
+

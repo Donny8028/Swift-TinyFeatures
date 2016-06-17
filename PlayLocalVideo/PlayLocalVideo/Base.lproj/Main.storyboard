@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="b9k-dp-9yR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="SGK-P5-4zX">
+            <objects>
+                <tableViewController id="74t-GH-rHE" customClass="MYTableViewController" customModule="PlayLocalVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="196" sectionHeaderHeight="28" sectionFooterHeight="28" id="4vO-X4-bUr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Video Cell" rowHeight="196" id="XSe-wx-tBH" customClass="MyTableViewCell" customModule="PlayLocalVideo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="196"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XSe-wx-tBH" id="na3-Uf-cbD">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="195"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoScreenshot01" translatesAutoresizingMaskIntoConstraints="NO" id="jAR-Nb-k0v">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="195"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji among us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTL-Id-LlF">
+                                            <rect key="frame" x="243" y="145" width="115" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="3MH-5i-LJQ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="3MH-5i-LJQ"/>
+                                                </mask>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube - 06:32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pW-5d-rJg">
+                                            <rect key="frame" x="264" y="173" width="73" height="14"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="82" id="e9V-n0-urV"/>
+                                                <constraint firstAttribute="height" constant="21" id="qxm-qz-P9M"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="10"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="e9V-n0-urV"/>
+                                                    <exclude reference="qxm-qz-P9M"/>
+                                                </mask>
+                                            </variation>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PN-0Z-vmm">
+                                            <rect key="frame" x="243" y="68" width="115" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="121" id="L7j-Hm-ABf"/>
+                                            </constraints>
+                                            <state key="normal" image="playBtn"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="L7j-Hm-ABf"/>
+                                                </mask>
+                                            </variation>
+                                            <connections>
+                                                <action selector="playVideo" destination="74t-GH-rHE" eventType="touchUpInside" id="3aW-e5-AR0"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qTL-Id-LlF" firstAttribute="centerX" secondItem="0pW-5d-rJg" secondAttribute="centerX" id="8KT-ZJ-R9l"/>
+                                        <constraint firstAttribute="bottom" secondItem="jAR-Nb-k0v" secondAttribute="bottom" id="9IM-4a-ZTd"/>
+                                        <constraint firstItem="7PN-0Z-vmm" firstAttribute="centerY" secondItem="na3-Uf-cbD" secondAttribute="centerY" id="LGH-Fk-Ew8"/>
+                                        <constraint firstItem="jAR-Nb-k0v" firstAttribute="centerX" secondItem="qTL-Id-LlF" secondAttribute="centerX" id="N83-Fx-AqB"/>
+                                        <constraint firstItem="0pW-5d-rJg" firstAttribute="top" secondItem="qTL-Id-LlF" secondAttribute="bottom" constant="8" symbolic="YES" id="N94-cR-bsr"/>
+                                        <constraint firstAttribute="trailing" secondItem="jAR-Nb-k0v" secondAttribute="trailing" id="Nbf-U9-q8Z"/>
+                                        <constraint firstItem="7PN-0Z-vmm" firstAttribute="leading" secondItem="qTL-Id-LlF" secondAttribute="leading" id="Wm3-Qr-Q9h"/>
+                                        <constraint firstItem="qTL-Id-LlF" firstAttribute="top" secondItem="7PN-0Z-vmm" secondAttribute="bottom" constant="8" symbolic="YES" id="ZXf-bF-Yd1"/>
+                                        <constraint firstItem="7PN-0Z-vmm" firstAttribute="trailing" secondItem="qTL-Id-LlF" secondAttribute="trailing" id="fA7-SU-q7W"/>
+                                        <constraint firstItem="jAR-Nb-k0v" firstAttribute="leading" secondItem="na3-Uf-cbD" secondAttribute="leading" id="fm5-Hl-5AB"/>
+                                        <constraint firstItem="jAR-Nb-k0v" firstAttribute="top" secondItem="na3-Uf-cbD" secondAttribute="top" id="sIx-g2-eXc"/>
+                                        <constraint firstItem="0pW-5d-rJg" firstAttribute="bottom" secondItem="na3-Uf-cbD" secondAttribute="bottomMargin" id="yhd-Ig-x9s"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="ZXf-bF-Yd1"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imagView" destination="jAR-Nb-k0v" id="ntb-XX-vPc"/>
+                                    <outlet property="imageInfo" destination="qTL-Id-LlF" id="Wzx-yr-zt0"/>
+                                    <outlet property="imageSource" destination="0pW-5d-rJg" id="zpt-1n-Eva"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="74t-GH-rHE" id="v4V-Jk-k0M"/>
+                            <outlet property="delegate" destination="74t-GH-rHE" id="4Vc-DG-Nn6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="T84-bg-7cZ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntO-tT-DEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1244" y="389"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BKo-ZF-GfL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b9k-dp-9yR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bET-HD-Sw4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="74t-GH-rHE" kind="relationship" relationship="rootViewController" id="ojE-Ub-O4D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTl-Jh-Zde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+        <image name="videoScreenshot01" width="375" height="220"/>
+    </resources>
+</document>

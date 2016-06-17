@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1FA8FEB1CE5661600329CD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA8FEA1CE5661600329CD0 /* AppDelegate.swift */; };
+		F1FA8FED1CE5661600329CD0 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA8FEC1CE5661600329CD0 /* ContainerViewController.swift */; };
+		F1FA8FF01CE5661600329CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA8FEE1CE5661600329CD0 /* Main.storyboard */; };
+		F1FA8FF21CE5661600329CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FA8FF11CE5661600329CD0 /* Assets.xcassets */; };
+		F1FA8FF51CE5661600329CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA8FF31CE5661600329CD0 /* LaunchScreen.storyboard */; };
+		F1FA8FFD1CE59EE300329CD0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA8FFC1CE59EE300329CD0 /* PickerViewController.swift */; };
+		F1FA8FFF1CE59F1500329CD0 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA8FFE1CE59F1500329CD0 /* RightViewController.swift */; };
+		F1FA90031CE756AF00329CD0 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA90021CE756AF00329CD0 /* LeftViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1FA8FE71CE5661600329CD0 /* SnapChat Menu & Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapChat Menu & Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FA8FEA1CE5661600329CD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FA8FEC1CE5661600329CD0 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		F1FA8FEF1CE5661600329CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FA8FF11CE5661600329CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FA8FF41CE5661600329CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FA8FF61CE5661600329CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FA8FFC1CE59EE300329CD0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		F1FA8FFE1CE59F1500329CD0 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		F1FA90021CE756AF00329CD0 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FA8FE41CE5661600329CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FA8FDE1CE5661600329CD0 = {
+			isa = PBXGroup;
+			children = (
+				F1FA8FE91CE5661600329CD0 /* SnapChat Menu & Camera */,
+				F1FA8FE81CE5661600329CD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FA8FE81CE5661600329CD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA8FE71CE5661600329CD0 /* SnapChat Menu & Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FA8FE91CE5661600329CD0 /* SnapChat Menu & Camera */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA8FEA1CE5661600329CD0 /* AppDelegate.swift */,
+				F1FA8FEC1CE5661600329CD0 /* ContainerViewController.swift */,
+				F1FA90021CE756AF00329CD0 /* LeftViewController.swift */,
+				F1FA8FFE1CE59F1500329CD0 /* RightViewController.swift */,
+				F1FA8FFC1CE59EE300329CD0 /* PickerViewController.swift */,
+				F1FA8FEE1CE5661600329CD0 /* Main.storyboard */,
+				F1FA8FF11CE5661600329CD0 /* Assets.xcassets */,
+				F1FA8FF31CE5661600329CD0 /* LaunchScreen.storyboard */,
+				F1FA8FF61CE5661600329CD0 /* Info.plist */,
+			);
+			path = "SnapChat Menu & Camera";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FA8FE61CE5661600329CD0 /* SnapChat Menu & Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA8FF91CE5661600329CD0 /* Build configuration list for PBXNativeTarget "SnapChat Menu & Camera" */;
+			buildPhases = (
+				F1FA8FE31CE5661600329CD0 /* Sources */,
+				F1FA8FE41CE5661600329CD0 /* Frameworks */,
+				F1FA8FE51CE5661600329CD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapChat Menu & Camera";
+			productName = "SnapChat Menu & Camera";
+			productReference = F1FA8FE71CE5661600329CD0 /* SnapChat Menu & Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FA8FDF1CE5661600329CD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Donny;
+				TargetAttributes = {
+					F1FA8FE61CE5661600329CD0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 76WCWVEEDT;
+					};
+				};
+			};
+			buildConfigurationList = F1FA8FE21CE5661600329CD0 /* Build configuration list for PBXProject "SnapChat Menu & Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FA8FDE1CE5661600329CD0;
+			productRefGroup = F1FA8FE81CE5661600329CD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FA8FE61CE5661600329CD0 /* SnapChat Menu & Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FA8FE51CE5661600329CD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FA8FF51CE5661600329CD0 /* LaunchScreen.storyboard in Resources */,
+				F1FA8FF21CE5661600329CD0 /* Assets.xcassets in Resources */,
+				F1FA8FF01CE5661600329CD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FA8FE31CE5661600329CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FA8FFD1CE59EE300329CD0 /* PickerViewController.swift in Sources */,
+				F1FA8FFF1CE59F1500329CD0 /* RightViewController.swift in Sources */,
+				F1FA8FED1CE5661600329CD0 /* ContainerViewController.swift in Sources */,
+				F1FA90031CE756AF00329CD0 /* LeftViewController.swift in Sources */,
+				F1FA8FEB1CE5661600329CD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FA8FEE1CE5661600329CD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FA8FEF1CE5661600329CD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FA8FF31CE5661600329CD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FA8FF41CE5661600329CD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FA8FF71CE5661600329CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FA8FF81CE5661600329CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FA8FFA1CE5661600329CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "SnapChat Menu & Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.SnapChat-Menu---Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1FA8FFB1CE5661600329CD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "SnapChat Menu & Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.SnapChat-Menu---Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FA8FE21CE5661600329CD0 /* Build configuration list for PBXProject "SnapChat Menu & Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA8FF71CE5661600329CD0 /* Debug */,
+				F1FA8FF81CE5661600329CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA8FF91CE5661600329CD0 /* Build configuration list for PBXNativeTarget "SnapChat Menu & Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA8FFA1CE5661600329CD0 /* Debug */,
+				F1FA8FFB1CE5661600329CD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FA8FDF1CE5661600329CD0 /* Project object */;
+}
