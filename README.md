@@ -69,7 +69,7 @@ Use the open docs API from [FMMosaicLayout](https://github.com/fmitech/FMMosaicL
 Part of images used from reference address.
 ## License
 
-Swift Animation is licensed uder the [MIT License](https://opensource.org/licenses/mit-license.php)
+Swift-TinyFeatures is licensed uder the [MIT License](https://opensource.org/licenses/mit-license.php)
 
 ##Contact me
 
