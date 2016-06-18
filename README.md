@@ -10,7 +10,7 @@ For saving time, some of 'gif' would skip the middle part
 
 #####1. Tweet-like Limit Character -
 
-![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/LimitCharacter/LimitCharacter.gif?raw=true)
+![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/LimitCharacter/Limitedcharacter.gif?raw=true)
 
 Limit characters within 140, the number on the left bottom will decrease when type in.
 
@@ -24,7 +24,7 @@ Use the open docs API from [ImagePickerSheetController](https://github.com/lbrnd
 
 #####3. PlayVideo - 
 
-![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/PlayLocalVideo/PlayVideos.gif?raw=true)
+![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/PlayLocalVideo/PlayVideo.gif?raw=true)
 
 #####4. Simple Timer -
 
@@ -36,7 +36,7 @@ When time's up.
 
 #####5. Core Data -
 
-![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/SimpleCoreData/SimpleCoreData.gif?raw=true)
+![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/SimpleCoreData/CoreData.gif?raw=true)
 
 Use Core Data framework to store the users data.
 
@@ -47,13 +47,13 @@ When in the camera mode page, tap on screen would take a shot.
 
 #####7. Spotlight Search -
 
-![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/SpotlightSearch/SpotlightSearch.gif?raw=true)
+![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/SpotlightSearch/SpolightSearch.gif?raw=true)
 
 To search when use Spotligh, setting the keyword and choose the result will go to the specific page directly.
 
 #####8. Mosaic View -
 
-![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/TileMosaicView/TileMosaicView.gif?raw=true)
+![GitHub](https://github.com/Donny8028/Swift-TinyFeatures/blob/master/TileMosaicView/MosaicView.gif?raw=true)
 
 Use the open docs API from [FMMosaicLayout](https://github.com/fmitech/FMMosaicLayout)
 
